@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+  <title>Plagiarism Checker</title>
+  <style>
+  body {
+  font-family: sans-serif;
+  }
+  textarea {
+  width: 100%;
+  height: 200px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  }
+  button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  }
+  #results {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  }
+  </style>
+ </head>
+ <body>
+ 
+
+ <h1>Plagiarism Checker</h1>
+ 
+
+ <textarea id="text" placeholder="Enter text here..."></textarea><br>
+ <button onclick="checkPlagiarism()">Check</button>
+ 
+
+ <div id="results">
+  Results will be displayed here...
+ </div>
+ 
+
+ <script>
+ function checkPlagiarism() {
+  const text = document.getElementById("text").value;
+  const resultsDiv = document.getElementById("results");
+ 
+
+  // Tu by sa nachádzal kód na kontrolu plagiátorstva.
+  // Tento kód by mohol používať externé API alebo knižnice.
+  // Pre jednoduchosť, v tomto príklade, len zobrazíme dĺžku textu.
+ 
+
+  const textLength = text.length;
+  resultsDiv.innerHTML = "Text length: " + textLength + " characters.";
+ }
+ </script>
+ 
+
+ </body>
+ </html>
